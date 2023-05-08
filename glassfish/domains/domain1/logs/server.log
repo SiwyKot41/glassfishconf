@@ -1,0 +1,965 @@
+
+[2023-05-08T09:10:53.234+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053234] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-05-08T09:10:53.318+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053318] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-05-08T09:10:53.355+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053355] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-05-08T09:10:53.356+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053356] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-05-08T09:10:53.356+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053356] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-05-08T09:10:53.357+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053357] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-05-08T09:10:53.357+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053357] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-05-08T09:10:53.357+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053357] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-05-08T09:10:53.358+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053358] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-05-08T09:10:53.358+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053358] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2023-05-08T09:10:53.391+0000] [glassfish 5.0] [INFO] [AS-WSJSR109IMPL-00018] [javax.enterprise.webservices] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053391] [levelValue: 800] [[
+  Webservice Endpoint deployed CityInformation
+ listening at address at http://project-rsi:8080/RSI/CityInformationService.]]
+
+[2023-05-08T09:10:53.577+0000] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053577] [levelValue: 800] [[
+  Loading application [RSI] at [/RSI]]]
+
+[2023-05-08T09:10:53.623+0000] [glassfish 5.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=50 _ThreadName=admin-listener(1)] [timeMillis: 1683537053623] [levelValue: 800] [[
+  RSI was successfully deployed in 796 milliseconds.]]
+
+[2023-05-08T09:11:41.487+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537101487] [levelValue: 800] [[
+  2023-05-08 09:11:41,487 [DEBUG] DaoManager created dao for class class net.wvffle.rsi.event.Event with reflection]]
+
+[2023-05-08T09:11:41.487+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537101487] [levelValue: 800] [[
+  2023-05-08 09:11:41,487 [INFO] TableUtils creating table 'events']]
+
+[2023-05-08T09:11:41.689+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537101689] [levelValue: 800] [[
+  2023-05-08 09:11:41,689 [DEBUG] JdbcPooledConnectionSource opened connection to jdbc:sqlite:/home/coder/workspace/database.db got #1831390999]]
+
+[2023-05-08T09:11:41.704+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537101704] [levelValue: 800] [[
+  2023-05-08 09:11:41,704 [INFO] TableUtils executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `events` (`id` INTEGER PRIMARY KEY AUTOINCREMENT , `name` VARCHAR NOT NULL , `type` VARCHAR NOT NULL , `date` BIGINT NOT NULL , `description` VARCHAR NOT NULL ) ]]
+
+[2023-05-08T09:11:41.705+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537101705] [levelValue: 800] [[
+  2023-05-08 09:11:41,705 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:11:41.987+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537101987] [levelValue: 800] [[
+  2023-05-08 09:11:41,987 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:11:41.991+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537101991] [levelValue: 800] [[
+  2023-05-08 09:11:41,991 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:11:41.992+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537101992] [levelValue: 800] [[
+  2023-05-08 09:11:41,992 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:11:41.996+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537101996] [levelValue: 800] [[
+  2023-05-08 09:11:41,996 [DEBUG] SelectIterator starting iterator @1694413409 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:11:42.000+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537102000] [levelValue: 800] [[
+  2023-05-08 09:11:42,000 [DEBUG] SelectIterator closed iterator @1694413409 after 7 rows]]
+
+[2023-05-08T09:11:42.000+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537102000] [levelValue: 800] [[
+  2023-05-08 09:11:42,000 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:11:42.000+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537102000] [levelValue: 800] [[
+  2023-05-08 09:11:42,000 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:11:44.581+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537104581] [levelValue: 800] [[
+  2023-05-08 09:11:44,581 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:11:44.581+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537104581] [levelValue: 800] [[
+  2023-05-08 09:11:44,581 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:11:44.582+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537104582] [levelValue: 800] [[
+  2023-05-08 09:11:44,582 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:11:44.582+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537104582] [levelValue: 800] [[
+  2023-05-08 09:11:44,582 [DEBUG] SelectIterator starting iterator @1449356622 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:11:44.583+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537104583] [levelValue: 800] [[
+  2023-05-08 09:11:44,583 [DEBUG] SelectIterator closed iterator @1449356622 after 7 rows]]
+
+[2023-05-08T09:11:44.583+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537104583] [levelValue: 800] [[
+  2023-05-08 09:11:44,583 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:11:44.583+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537104583] [levelValue: 800] [[
+  2023-05-08 09:11:44,583 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:11:45.749+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537105749] [levelValue: 800] [[
+  2023-05-08 09:11:45,749 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:11:45.749+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537105749] [levelValue: 800] [[
+  2023-05-08 09:11:45,749 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:11:45.749+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537105749] [levelValue: 800] [[
+  2023-05-08 09:11:45,749 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:11:45.749+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537105749] [levelValue: 800] [[
+  2023-05-08 09:11:45,749 [DEBUG] SelectIterator starting iterator @615790991 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:11:45.751+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537105751] [levelValue: 800] [[
+  2023-05-08 09:11:45,751 [DEBUG] SelectIterator closed iterator @615790991 after 7 rows]]
+
+[2023-05-08T09:11:45.751+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537105751] [levelValue: 800] [[
+  2023-05-08 09:11:45,751 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:11:45.751+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537105751] [levelValue: 800] [[
+  2023-05-08 09:11:45,751 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:11:46.393+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537106393] [levelValue: 800] [[
+  2023-05-08 09:11:46,393 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:11:46.393+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537106393] [levelValue: 800] [[
+  2023-05-08 09:11:46,393 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:11:46.394+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537106394] [levelValue: 800] [[
+  2023-05-08 09:11:46,394 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:11:46.394+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537106394] [levelValue: 800] [[
+  2023-05-08 09:11:46,394 [DEBUG] SelectIterator starting iterator @1657053184 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:11:46.395+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537106395] [levelValue: 800] [[
+  2023-05-08 09:11:46,395 [DEBUG] SelectIterator closed iterator @1657053184 after 7 rows]]
+
+[2023-05-08T09:11:46.395+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537106395] [levelValue: 800] [[
+  2023-05-08 09:11:46,395 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:11:46.395+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537106395] [levelValue: 800] [[
+  2023-05-08 09:11:46,395 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:11:46.880+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537106880] [levelValue: 800] [[
+  2023-05-08 09:11:46,880 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:11:46.880+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537106880] [levelValue: 800] [[
+  2023-05-08 09:11:46,880 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:11:46.880+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537106880] [levelValue: 800] [[
+  2023-05-08 09:11:46,880 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:11:46.881+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537106881] [levelValue: 800] [[
+  2023-05-08 09:11:46,881 [DEBUG] SelectIterator starting iterator @408153899 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:11:46.881+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537106881] [levelValue: 800] [[
+  2023-05-08 09:11:46,881 [DEBUG] SelectIterator closed iterator @408153899 after 7 rows]]
+
+[2023-05-08T09:11:46.881+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537106881] [levelValue: 800] [[
+  2023-05-08 09:11:46,881 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:11:46.881+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537106881] [levelValue: 800] [[
+  2023-05-08 09:11:46,881 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:11:47.168+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537107168] [levelValue: 800] [[
+  2023-05-08 09:11:47,168 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:11:47.168+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537107168] [levelValue: 800] [[
+  2023-05-08 09:11:47,168 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:11:47.168+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537107168] [levelValue: 800] [[
+  2023-05-08 09:11:47,168 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:11:47.169+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537107169] [levelValue: 800] [[
+  2023-05-08 09:11:47,169 [DEBUG] SelectIterator starting iterator @511003233 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:11:47.169+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537107169] [levelValue: 800] [[
+  2023-05-08 09:11:47,169 [DEBUG] SelectIterator closed iterator @511003233 after 7 rows]]
+
+[2023-05-08T09:11:47.169+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537107169] [levelValue: 800] [[
+  2023-05-08 09:11:47,169 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:11:47.169+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537107169] [levelValue: 800] [[
+  2023-05-08 09:11:47,169 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:11:47.433+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537107433] [levelValue: 800] [[
+  2023-05-08 09:11:47,433 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:11:47.433+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537107433] [levelValue: 800] [[
+  2023-05-08 09:11:47,433 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:11:47.434+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537107434] [levelValue: 800] [[
+  2023-05-08 09:11:47,434 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:11:47.434+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537107434] [levelValue: 800] [[
+  2023-05-08 09:11:47,434 [DEBUG] SelectIterator starting iterator @208124453 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:11:47.434+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537107434] [levelValue: 800] [[
+  2023-05-08 09:11:47,434 [DEBUG] SelectIterator closed iterator @208124453 after 7 rows]]
+
+[2023-05-08T09:11:47.435+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537107435] [levelValue: 800] [[
+  2023-05-08 09:11:47,434 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:11:47.435+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683537107435] [levelValue: 800] [[
+  2023-05-08 09:11:47,435 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:11:47.661+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537107661] [levelValue: 800] [[
+  2023-05-08 09:11:47,661 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:11:47.661+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537107661] [levelValue: 800] [[
+  2023-05-08 09:11:47,661 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:11:47.661+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537107661] [levelValue: 800] [[
+  2023-05-08 09:11:47,661 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:11:47.661+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537107661] [levelValue: 800] [[
+  2023-05-08 09:11:47,661 [DEBUG] SelectIterator starting iterator @252629743 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:11:47.662+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537107662] [levelValue: 800] [[
+  2023-05-08 09:11:47,662 [DEBUG] SelectIterator closed iterator @252629743 after 7 rows]]
+
+[2023-05-08T09:11:47.662+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537107662] [levelValue: 800] [[
+  2023-05-08 09:11:47,662 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:11:47.662+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537107662] [levelValue: 800] [[
+  2023-05-08 09:11:47,662 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:11:47.874+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537107874] [levelValue: 800] [[
+  2023-05-08 09:11:47,873 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:11:47.874+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537107874] [levelValue: 800] [[
+  2023-05-08 09:11:47,874 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:11:47.874+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537107874] [levelValue: 800] [[
+  2023-05-08 09:11:47,874 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:11:47.874+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537107874] [levelValue: 800] [[
+  2023-05-08 09:11:47,874 [DEBUG] SelectIterator starting iterator @1938668163 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:11:47.875+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537107875] [levelValue: 800] [[
+  2023-05-08 09:11:47,875 [DEBUG] SelectIterator closed iterator @1938668163 after 7 rows]]
+
+[2023-05-08T09:11:47.875+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537107875] [levelValue: 800] [[
+  2023-05-08 09:11:47,875 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:11:47.875+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683537107875] [levelValue: 800] [[
+  2023-05-08 09:11:47,875 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:12:01.574+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537121574] [levelValue: 800] [[
+  2023-05-08 09:12:01,574 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:12:01.575+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537121575] [levelValue: 800] [[
+  2023-05-08 09:12:01,575 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:12:01.575+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537121575] [levelValue: 800] [[
+  2023-05-08 09:12:01,575 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:12:01.575+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537121575] [levelValue: 800] [[
+  2023-05-08 09:12:01,575 [DEBUG] SelectIterator starting iterator @852139639 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:12:01.580+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537121580] [levelValue: 800] [[
+  2023-05-08 09:12:01,580 [DEBUG] SelectIterator closed iterator @852139639 after 7 rows]]
+
+[2023-05-08T09:12:01.580+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537121580] [levelValue: 800] [[
+  2023-05-08 09:12:01,580 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:12:01.580+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683537121580] [levelValue: 800] [[
+  2023-05-08 09:12:01,580 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:12:10.825+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537130825] [levelValue: 800] [[
+  2023-05-08 09:12:10,825 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:12:10.825+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537130825] [levelValue: 800] [[
+  2023-05-08 09:12:10,825 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:12:10.825+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537130825] [levelValue: 800] [[
+  2023-05-08 09:12:10,825 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:12:10.826+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537130826] [levelValue: 800] [[
+  2023-05-08 09:12:10,826 [DEBUG] SelectIterator starting iterator @1676700411 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:12:10.826+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537130826] [levelValue: 800] [[
+  2023-05-08 09:12:10,826 [DEBUG] SelectIterator closed iterator @1676700411 after 7 rows]]
+
+[2023-05-08T09:12:10.826+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537130826] [levelValue: 800] [[
+  2023-05-08 09:12:10,826 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:12:10.826+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683537130826] [levelValue: 800] [[
+  2023-05-08 09:12:10,826 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:19:31.125+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=753 _ThreadName=Thread-8] [timeMillis: 1683537571125] [levelValue: 800] [[
+  2023-05-08 09:19:31,124 [DEBUG] JdbcPooledConnectionSource closed connection #1668059025]]
+
+[2023-05-08T09:21:10.609+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537670609] [levelValue: 800] [[
+  2023-05-08 09:21:10,609 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T09:21:10.610+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537670610] [levelValue: 800] [[
+  2023-05-08 09:21:10,610 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T09:21:10.611+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537670611] [levelValue: 800] [[
+  2023-05-08 09:21:10,611 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T09:21:10.611+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537670611] [levelValue: 800] [[
+  2023-05-08 09:21:10,611 [DEBUG] SelectIterator starting iterator @425623759 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T09:21:10.613+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537670613] [levelValue: 800] [[
+  2023-05-08 09:21:10,613 [DEBUG] SelectIterator closed iterator @425623759 after 7 rows]]
+
+[2023-05-08T09:21:10.613+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537670613] [levelValue: 800] [[
+  2023-05-08 09:21:10,613 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T09:21:10.613+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683537670613] [levelValue: 800] [[
+  2023-05-08 09:21:10,613 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T09:39:14.429+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=850 _ThreadName=Thread-8] [timeMillis: 1683538754429] [levelValue: 800] [[
+  2023-05-08 09:39:14,428 [DEBUG] JdbcPooledConnectionSource closed connection #1128361391]]
+
+[2023-05-08T10:02:11.688+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540131688] [levelValue: 800] [[
+  2023-05-08 10:02:11,688 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10]]
+
+[2023-05-08T10:02:11.688+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540131688] [levelValue: 800] [[
+  2023-05-08 10:02:11,686 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T10:02:11.688+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540131688] [levelValue: 800] [[
+  2023-05-08 10:02:11,688 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T10:02:11.689+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540131689] [levelValue: 800] [[
+  2023-05-08 10:02:11,689 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10' with 0 args]]
+
+[2023-05-08T10:02:11.690+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540131690] [levelValue: 800] [[
+  2023-05-08 10:02:11,690 [DEBUG] SelectIterator starting iterator @1339509626 for 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10']]
+
+[2023-05-08T10:02:11.690+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540131690] [levelValue: 800] [[
+  2023-05-08 10:02:11,690 [DEBUG] SelectIterator closed iterator @1339509626 after 7 rows]]
+
+[2023-05-08T10:02:11.691+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540131691] [levelValue: 800] [[
+  2023-05-08 10:02:11,691 [DEBUG] JdbcPooledConnectionSource opened connection to jdbc:sqlite:/home/coder/workspace/database.db got #778517868]]
+
+[2023-05-08T10:02:11.691+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540131691] [levelValue: 800] [[
+  2023-05-08 10:02:11,691 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T10:02:11.691+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540131691] [levelValue: 800] [[
+  2023-05-08 10:02:11,691 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10' with 0 args returned 7 results]]
+
+[2023-05-08T10:02:11.691+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540131691] [levelValue: 800] [[
+  2023-05-08 10:02:11,691 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:02:11.691+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540131691] [levelValue: 800] [[
+  2023-05-08 10:02:11,691 [DEBUG] SelectIterator starting iterator @997971577 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T10:02:11.692+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540131692] [levelValue: 800] [[
+  2023-05-08 10:02:11,692 [DEBUG] SelectIterator closed iterator @997971577 after 7 rows]]
+
+[2023-05-08T10:02:11.692+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540131692] [levelValue: 800] [[
+  2023-05-08 10:02:11,692 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:02:11.692+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540131692] [levelValue: 800] [[
+  2023-05-08 10:02:11,692 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T10:02:16.471+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540136471] [levelValue: 800] [[
+  2023-05-08 10:02:16,471 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T10:02:16.471+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540136471] [levelValue: 800] [[
+  2023-05-08 10:02:16,471 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T10:02:16.472+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540136472] [levelValue: 800] [[
+  2023-05-08 10:02:16,472 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:02:16.472+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540136472] [levelValue: 800] [[
+  2023-05-08 10:02:16,472 [DEBUG] SelectIterator starting iterator @1985097448 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T10:02:16.472+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540136472] [levelValue: 800] [[
+  2023-05-08 10:02:16,472 [DEBUG] SelectIterator closed iterator @1985097448 after 7 rows]]
+
+[2023-05-08T10:02:16.472+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540136472] [levelValue: 800] [[
+  2023-05-08 10:02:16,472 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T10:02:16.472+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540136472] [levelValue: 800] [[
+  2023-05-08 10:02:16,472 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T10:02:21.927+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540141927] [levelValue: 800] [[
+  2023-05-08 10:02:21,927 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T10:02:21.927+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540141927] [levelValue: 800] [[
+  2023-05-08 10:02:21,927 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:02:21.927+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540141927] [levelValue: 800] [[
+  2023-05-08 10:02:21,927 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:02:21.927+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540141927] [levelValue: 800] [[
+  2023-05-08 10:02:21,927 [DEBUG] SelectIterator starting iterator @400263698 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T10:02:21.928+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540141928] [levelValue: 800] [[
+  2023-05-08 10:02:21,928 [DEBUG] SelectIterator closed iterator @400263698 after 7 rows]]
+
+[2023-05-08T10:02:21.928+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540141928] [levelValue: 800] [[
+  2023-05-08 10:02:21,928 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:02:21.928+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540141928] [levelValue: 800] [[
+  2023-05-08 10:02:21,928 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T10:02:46.153+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540166153] [levelValue: 800] [[
+  2023-05-08 10:02:46,153 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T10:02:46.169+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540166169] [levelValue: 800] [[
+  2023-05-08 10:02:46,169 [DEBUG] BaseMappedStatement query-for-id using 'SELECT * FROM `events` WHERE `id` = ?' and 1 args, got 1 result]]
+
+[2023-05-08T10:02:46.169+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540166169] [levelValue: 800] [[
+  2023-05-08 10:02:46,169 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T10:02:47.821+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540167821] [levelValue: 800] [[
+  2023-05-08 10:02:47,821 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:02:47.821+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540167821] [levelValue: 800] [[
+  2023-05-08 10:02:47,821 [DEBUG] BaseMappedStatement query-for-id using 'SELECT * FROM `events` WHERE `id` = ?' and 1 args, got 1 result]]
+
+[2023-05-08T10:02:47.821+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540167821] [levelValue: 800] [[
+  2023-05-08 10:02:47,821 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:03:49.179+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540229179] [levelValue: 800] [[
+  2023-05-08 10:03:49,178 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T10:03:49.179+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540229179] [levelValue: 800] [[
+  2023-05-08 10:03:49,179 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T10:03:49.180+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540229180] [levelValue: 800] [[
+  2023-05-08 10:03:49,180 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:03:49.180+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540229180] [levelValue: 800] [[
+  2023-05-08 10:03:49,180 [DEBUG] SelectIterator starting iterator @527219888 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T10:03:49.181+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540229181] [levelValue: 800] [[
+  2023-05-08 10:03:49,181 [DEBUG] SelectIterator closed iterator @527219888 after 7 rows]]
+
+[2023-05-08T10:03:49.181+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540229181] [levelValue: 800] [[
+  2023-05-08 10:03:49,181 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T10:03:49.181+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540229181] [levelValue: 800] [[
+  2023-05-08 10:03:49,181 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T10:04:12.229+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540252229] [levelValue: 800] [[
+  2023-05-08 10:04:12,228 [DEBUG] StatementBuilder built statement SELECT * FROM `events` WHERE `date` = 1683504000000]]
+
+[2023-05-08T10:04:12.229+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540252229] [levelValue: 800] [[
+  2023-05-08 10:04:12,229 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:04:12.229+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540252229] [levelValue: 800] [[
+  2023-05-08 10:04:12,229 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` WHERE `date` = 1683504000000' with 0 args]]
+
+[2023-05-08T10:04:12.230+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540252230] [levelValue: 800] [[
+  2023-05-08 10:04:12,230 [DEBUG] SelectIterator starting iterator @1118091637 for 'SELECT * FROM `events` WHERE `date` = 1683504000000']]
+
+[2023-05-08T10:04:12.230+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540252230] [levelValue: 800] [[
+  2023-05-08 10:04:12,230 [DEBUG] SelectIterator closed iterator @1118091637 after 2 rows]]
+
+[2023-05-08T10:04:12.230+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540252230] [levelValue: 800] [[
+  2023-05-08 10:04:12,230 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:04:12.230+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540252230] [levelValue: 800] [[
+  2023-05-08 10:04:12,230 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` WHERE `date` = 1683504000000' with 0 args returned 2 results]]
+
+[2023-05-08T10:06:27.808+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540387808] [levelValue: 800] [[
+  2023-05-08 10:06:27,807 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T10:06:27.808+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540387808] [levelValue: 800] [[
+  2023-05-08 10:06:27,808 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T10:06:27.808+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540387808] [levelValue: 800] [[
+  2023-05-08 10:06:27,808 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:06:27.809+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540387809] [levelValue: 800] [[
+  2023-05-08 10:06:27,809 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10]]
+
+[2023-05-08T10:06:27.809+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540387809] [levelValue: 800] [[
+  2023-05-08 10:06:27,809 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:06:27.809+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540387809] [levelValue: 800] [[
+  2023-05-08 10:06:27,809 [DEBUG] SelectIterator starting iterator @1863612194 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T10:06:27.809+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540387809] [levelValue: 800] [[
+  2023-05-08 10:06:27,809 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10' with 0 args]]
+
+[2023-05-08T10:06:27.809+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540387809] [levelValue: 800] [[
+  2023-05-08 10:06:27,809 [DEBUG] SelectIterator starting iterator @1162614908 for 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10']]
+
+[2023-05-08T10:06:27.810+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540387810] [levelValue: 800] [[
+  2023-05-08 10:06:27,810 [DEBUG] SelectIterator closed iterator @1162614908 after 7 rows]]
+
+[2023-05-08T10:06:27.811+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540387811] [levelValue: 800] [[
+  2023-05-08 10:06:27,811 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:06:27.811+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540387811] [levelValue: 800] [[
+  2023-05-08 10:06:27,811 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10' with 0 args returned 7 results]]
+
+[2023-05-08T10:06:27.814+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540387814] [levelValue: 800] [[
+  2023-05-08 10:06:27,814 [DEBUG] SelectIterator closed iterator @1863612194 after 7 rows]]
+
+[2023-05-08T10:06:27.814+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540387814] [levelValue: 800] [[
+  2023-05-08 10:06:27,814 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T10:06:27.814+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540387814] [levelValue: 800] [[
+  2023-05-08 10:06:27,814 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T10:06:28.006+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540388006] [levelValue: 800] [[
+  2023-05-08 10:06:28,006 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T10:06:28.006+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540388006] [levelValue: 800] [[
+  2023-05-08 10:06:28,006 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:06:28.006+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540388006] [levelValue: 800] [[
+  2023-05-08 10:06:28,006 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10]]
+
+[2023-05-08T10:06:28.006+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540388006] [levelValue: 800] [[
+  2023-05-08 10:06:28,006 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:06:28.006+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540388006] [levelValue: 800] [[
+  2023-05-08 10:06:28,006 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T10:06:28.006+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540388006] [levelValue: 800] [[
+  2023-05-08 10:06:28,006 [DEBUG] SelectIterator starting iterator @8688607 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T10:06:28.006+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540388006] [levelValue: 800] [[
+  2023-05-08 10:06:28,006 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10' with 0 args]]
+
+[2023-05-08T10:06:28.006+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540388006] [levelValue: 800] [[
+  2023-05-08 10:06:28,006 [DEBUG] SelectIterator closed iterator @8688607 after 7 rows]]
+
+[2023-05-08T10:06:28.007+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540388007] [levelValue: 800] [[
+  2023-05-08 10:06:28,007 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:06:28.007+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540388007] [levelValue: 800] [[
+  2023-05-08 10:06:28,006 [DEBUG] SelectIterator starting iterator @1550995814 for 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10']]
+
+[2023-05-08T10:06:28.007+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540388007] [levelValue: 800] [[
+  2023-05-08 10:06:28,007 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T10:06:28.007+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540388007] [levelValue: 800] [[
+  2023-05-08 10:06:28,007 [DEBUG] SelectIterator closed iterator @1550995814 after 7 rows]]
+
+[2023-05-08T10:06:28.007+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540388007] [levelValue: 800] [[
+  2023-05-08 10:06:28,007 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T10:06:28.007+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540388007] [levelValue: 800] [[
+  2023-05-08 10:06:28,007 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10' with 0 args returned 7 results]]
+
+[2023-05-08T10:06:33.538+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540393538] [levelValue: 800] [[
+  2023-05-08 10:06:33,538 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T10:06:33.538+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540393538] [levelValue: 800] [[
+  2023-05-08 10:06:33,538 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:06:33.538+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540393538] [levelValue: 800] [[
+  2023-05-08 10:06:33,538 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:06:33.539+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540393539] [levelValue: 800] [[
+  2023-05-08 10:06:33,539 [DEBUG] SelectIterator starting iterator @503123835 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T10:06:33.539+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540393539] [levelValue: 800] [[
+  2023-05-08 10:06:33,539 [DEBUG] SelectIterator closed iterator @503123835 after 7 rows]]
+
+[2023-05-08T10:06:33.539+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540393539] [levelValue: 800] [[
+  2023-05-08 10:06:33,539 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:06:33.539+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540393539] [levelValue: 800] [[
+  2023-05-08 10:06:33,539 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T10:06:43.204+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540403204] [levelValue: 800] [[
+  2023-05-08 10:06:43,204 [DEBUG] StatementBuilder built statement SELECT * FROM `events` WHERE `date` = 1683504000000]]
+
+[2023-05-08T10:06:43.204+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540403204] [levelValue: 800] [[
+  2023-05-08 10:06:43,204 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T10:06:43.204+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540403204] [levelValue: 800] [[
+  2023-05-08 10:06:43,204 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` WHERE `date` = 1683504000000' with 0 args]]
+
+[2023-05-08T10:06:43.204+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540403204] [levelValue: 800] [[
+  2023-05-08 10:06:43,204 [DEBUG] SelectIterator starting iterator @1351256088 for 'SELECT * FROM `events` WHERE `date` = 1683504000000']]
+
+[2023-05-08T10:06:43.205+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540403205] [levelValue: 800] [[
+  2023-05-08 10:06:43,205 [DEBUG] SelectIterator closed iterator @1351256088 after 2 rows]]
+
+[2023-05-08T10:06:43.205+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540403205] [levelValue: 800] [[
+  2023-05-08 10:06:43,205 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T10:06:43.205+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540403205] [levelValue: 800] [[
+  2023-05-08 10:06:43,205 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` WHERE `date` = 1683504000000' with 0 args returned 2 results]]
+
+[2023-05-08T10:06:49.590+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540409590] [levelValue: 800] [[
+  2023-05-08 10:06:49,590 [DEBUG] StatementBuilder built statement SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC]]
+
+[2023-05-08T10:06:49.590+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540409590] [levelValue: 800] [[
+  2023-05-08 10:06:49,590 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:06:49.590+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540409590] [levelValue: 800] [[
+  2023-05-08 10:06:49,590 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:06:49.590+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540409590] [levelValue: 800] [[
+  2023-05-08 10:06:49,590 [DEBUG] SelectIterator starting iterator @1959991692 for 'SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC']]
+
+[2023-05-08T10:06:49.591+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540409591] [levelValue: 800] [[
+  2023-05-08 10:06:49,591 [DEBUG] SelectIterator closed iterator @1959991692 after 2 rows]]
+
+[2023-05-08T10:06:49.591+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540409591] [levelValue: 800] [[
+  2023-05-08 10:06:49,591 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:06:49.591+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540409591] [levelValue: 800] [[
+  2023-05-08 10:06:49,591 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC' with 0 args returned 2 results]]
+
+[2023-05-08T10:06:50.628+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540410628] [levelValue: 800] [[
+  2023-05-08 10:06:50,628 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T10:06:50.628+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540410628] [levelValue: 800] [[
+  2023-05-08 10:06:50,628 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T10:06:50.628+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540410628] [levelValue: 800] [[
+  2023-05-08 10:06:50,628 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:06:50.628+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540410628] [levelValue: 800] [[
+  2023-05-08 10:06:50,628 [DEBUG] SelectIterator starting iterator @17894491 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T10:06:50.628+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540410628] [levelValue: 800] [[
+  2023-05-08 10:06:50,628 [DEBUG] SelectIterator closed iterator @17894491 after 7 rows]]
+
+[2023-05-08T10:06:50.629+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540410629] [levelValue: 800] [[
+  2023-05-08 10:06:50,629 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T10:06:50.629+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540410629] [levelValue: 800] [[
+  2023-05-08 10:06:50,629 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T10:07:00.549+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540420549] [levelValue: 800] [[
+  2023-05-08 10:07:00,549 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T10:07:00.549+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540420549] [levelValue: 800] [[
+  2023-05-08 10:07:00,549 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:07:00.549+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540420549] [levelValue: 800] [[
+  2023-05-08 10:07:00,549 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:07:00.549+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540420549] [levelValue: 800] [[
+  2023-05-08 10:07:00,549 [DEBUG] SelectIterator starting iterator @1638533491 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T10:07:00.550+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540420550] [levelValue: 800] [[
+  2023-05-08 10:07:00,550 [DEBUG] SelectIterator closed iterator @1638533491 after 7 rows]]
+
+[2023-05-08T10:07:00.550+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540420550] [levelValue: 800] [[
+  2023-05-08 10:07:00,550 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:07:00.550+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683540420550] [levelValue: 800] [[
+  2023-05-08 10:07:00,550 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T10:08:06.917+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540486917] [levelValue: 800] [[
+  2023-05-08 10:08:06,917 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T10:08:06.918+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540486918] [levelValue: 800] [[
+  2023-05-08 10:08:06,918 [DEBUG] BaseMappedStatement query-for-id using 'SELECT * FROM `events` WHERE `id` = ?' and 1 args, got 1 result]]
+
+[2023-05-08T10:08:06.918+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683540486918] [levelValue: 800] [[
+  2023-05-08 10:08:06,918 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T10:08:08.631+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540488631] [levelValue: 800] [[
+  2023-05-08 10:08:08,631 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:08:08.631+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540488631] [levelValue: 800] [[
+  2023-05-08 10:08:08,631 [DEBUG] BaseMappedStatement query-for-id using 'SELECT * FROM `events` WHERE `id` = ?' and 1 args, got 1 result]]
+
+[2023-05-08T10:08:08.632+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683540488632] [levelValue: 800] [[
+  2023-05-08 10:08:08,632 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:08:09.550+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540489550] [levelValue: 800] [[
+  2023-05-08 10:08:09,550 [DEBUG] JdbcPooledConnectionSource reusing connection #307828278]]
+
+[2023-05-08T10:08:09.550+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540489550] [levelValue: 800] [[
+  2023-05-08 10:08:09,550 [DEBUG] BaseMappedStatement query-for-id using 'SELECT * FROM `events` WHERE `id` = ?' and 1 args, got 1 result]]
+
+[2023-05-08T10:08:09.550+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683540489550] [levelValue: 800] [[
+  2023-05-08 10:08:09,550 [DEBUG] JdbcPooledConnectionSource cache released connection #307828278]]
+
+[2023-05-08T10:08:10.179+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540490179] [levelValue: 800] [[
+  2023-05-08 10:08:10,179 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:08:10.180+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540490180] [levelValue: 800] [[
+  2023-05-08 10:08:10,180 [DEBUG] BaseMappedStatement query-for-id using 'SELECT * FROM `events` WHERE `id` = ?' and 1 args, got 1 result]]
+
+[2023-05-08T10:08:10.180+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683540490180] [levelValue: 800] [[
+  2023-05-08 10:08:10,180 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:11:41.862+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=924 _ThreadName=Thread-8] [timeMillis: 1683540701862] [levelValue: 800] [[
+  2023-05-08 10:11:41,861 [DEBUG] JdbcPooledConnectionSource closed connection #307828278]]
+
+[2023-05-08T10:25:37.357+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683541537357] [levelValue: 800] [[
+  2023-05-08 10:25:37,357 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:25:37.358+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683541537358] [levelValue: 800] [[
+  2023-05-08 10:25:37,358 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10]]
+
+[2023-05-08T10:25:37.359+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683541537359] [levelValue: 800] [[
+  2023-05-08 10:25:37,359 [DEBUG] BaseMappedStatement query-for-id using 'SELECT * FROM `events` WHERE `id` = ?' and 1 args, got 1 result]]
+
+[2023-05-08T10:25:37.363+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683541537363] [levelValue: 800] [[
+  2023-05-08 10:25:37,363 [DEBUG] JdbcPooledConnectionSource opened connection to jdbc:sqlite:/home/coder/workspace/database.db got #548983844]]
+
+[2023-05-08T10:25:37.363+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683541537363] [levelValue: 800] [[
+  2023-05-08 10:25:37,363 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:25:37.364+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683541537364] [levelValue: 800] [[
+  2023-05-08 10:25:37,364 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10' with 0 args]]
+
+[2023-05-08T10:25:37.364+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683541537364] [levelValue: 800] [[
+  2023-05-08 10:25:37,364 [DEBUG] SelectIterator starting iterator @292073681 for 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10']]
+
+[2023-05-08T10:25:37.364+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683541537364] [levelValue: 800] [[
+  2023-05-08 10:25:37,364 [DEBUG] SelectIterator closed iterator @292073681 after 7 rows]]
+
+[2023-05-08T10:25:37.365+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683541537365] [levelValue: 800] [[
+  2023-05-08 10:25:37,365 [DEBUG] JdbcPooledConnectionSource cache released connection #1727180513]]
+
+[2023-05-08T10:25:37.365+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683541537365] [levelValue: 800] [[
+  2023-05-08 10:25:37,365 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10' with 0 args returned 7 results]]
+
+[2023-05-08T10:25:42.195+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683541542195] [levelValue: 800] [[
+  2023-05-08 10:25:42,195 [DEBUG] StatementBuilder built statement SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC]]
+
+[2023-05-08T10:25:42.195+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683541542195] [levelValue: 800] [[
+  2023-05-08 10:25:42,195 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:25:42.195+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683541542195] [levelValue: 800] [[
+  2023-05-08 10:25:42,195 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:25:42.196+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683541542196] [levelValue: 800] [[
+  2023-05-08 10:25:42,196 [DEBUG] SelectIterator starting iterator @512524657 for 'SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC']]
+
+[2023-05-08T10:25:42.196+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683541542196] [levelValue: 800] [[
+  2023-05-08 10:25:42,196 [DEBUG] SelectIterator closed iterator @512524657 after 2 rows]]
+
+[2023-05-08T10:25:42.196+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683541542196] [levelValue: 800] [[
+  2023-05-08 10:25:42,196 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:25:42.196+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683541542196] [levelValue: 800] [[
+  2023-05-08 10:25:42,196 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC' with 0 args returned 2 results]]
+
+[2023-05-08T10:25:44.069+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683541544069] [levelValue: 800] [[
+  2023-05-08 10:25:44,069 [DEBUG] StatementBuilder built statement SELECT * FROM `events` WHERE `date` = 1683504000000]]
+
+[2023-05-08T10:25:44.069+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683541544069] [levelValue: 800] [[
+  2023-05-08 10:25:44,069 [DEBUG] JdbcPooledConnectionSource reusing connection #1727180513]]
+
+[2023-05-08T10:25:44.070+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683541544070] [levelValue: 800] [[
+  2023-05-08 10:25:44,070 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` WHERE `date` = 1683504000000' with 0 args]]
+
+[2023-05-08T10:25:44.070+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683541544070] [levelValue: 800] [[
+  2023-05-08 10:25:44,070 [DEBUG] SelectIterator starting iterator @210311032 for 'SELECT * FROM `events` WHERE `date` = 1683504000000']]
+
+[2023-05-08T10:25:44.070+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683541544070] [levelValue: 800] [[
+  2023-05-08 10:25:44,070 [DEBUG] SelectIterator closed iterator @210311032 after 2 rows]]
+
+[2023-05-08T10:25:44.070+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683541544070] [levelValue: 800] [[
+  2023-05-08 10:25:44,070 [DEBUG] JdbcPooledConnectionSource cache released connection #1727180513]]
+
+[2023-05-08T10:25:44.070+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683541544070] [levelValue: 800] [[
+  2023-05-08 10:25:44,070 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` WHERE `date` = 1683504000000' with 0 args returned 2 results]]
+
+[2023-05-08T10:25:45.031+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683541545031] [levelValue: 800] [[
+  2023-05-08 10:25:45,031 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T10:25:45.032+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683541545032] [levelValue: 800] [[
+  2023-05-08 10:25:45,032 [DEBUG] JdbcPooledConnectionSource reusing connection #1530713183]]
+
+[2023-05-08T10:25:45.032+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683541545032] [levelValue: 800] [[
+  2023-05-08 10:25:45,032 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T10:25:45.032+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683541545032] [levelValue: 800] [[
+  2023-05-08 10:25:45,032 [DEBUG] SelectIterator starting iterator @1826830083 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T10:25:45.032+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683541545032] [levelValue: 800] [[
+  2023-05-08 10:25:45,032 [DEBUG] SelectIterator closed iterator @1826830083 after 7 rows]]
+
+[2023-05-08T10:25:45.032+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683541545032] [levelValue: 800] [[
+  2023-05-08 10:25:45,032 [DEBUG] JdbcPooledConnectionSource cache released connection #1530713183]]
+
+[2023-05-08T10:25:45.032+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683541545032] [levelValue: 800] [[
+  2023-05-08 10:25:45,032 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T11:02:12.001+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=924 _ThreadName=Thread-8] [timeMillis: 1683543732001] [levelValue: 800] [[
+  2023-05-08 11:02:11,997 [DEBUG] JdbcPooledConnectionSource closed connection #1530713183]]
+
+[2023-05-08T11:06:43.140+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683544003140] [levelValue: 800] [[
+  2023-05-08 11:06:43,140 [DEBUG] JdbcPooledConnectionSource reusing connection #1727180513]]
+
+[2023-05-08T11:06:43.141+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683544003141] [levelValue: 800] [[
+  2023-05-08 11:06:43,141 [DEBUG] BaseMappedStatement query-for-id using 'SELECT * FROM `events` WHERE `id` = ?' and 1 args, got 1 result]]
+
+[2023-05-08T11:06:43.141+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683544003141] [levelValue: 800] [[
+  2023-05-08 11:06:43,141 [DEBUG] JdbcPooledConnectionSource cache released connection #1727180513]]
+
+[2023-05-08T11:06:45.935+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683544005935] [levelValue: 800] [[
+  2023-05-08 11:06:45,935 [DEBUG] JdbcPooledConnectionSource reusing connection #1727180513]]
+
+[2023-05-08T11:06:45.936+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683544005936] [levelValue: 800] [[
+  2023-05-08 11:06:45,935 [DEBUG] BaseMappedStatement query-for-id using 'SELECT * FROM `events` WHERE `id` = ?' and 1 args, got 1 result]]
+
+[2023-05-08T11:06:45.936+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683544005936] [levelValue: 800] [[
+  2023-05-08 11:06:45,936 [DEBUG] JdbcPooledConnectionSource cache released connection #1727180513]]
+
+[2023-05-08T11:06:48.539+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683544008539] [levelValue: 800] [[
+  2023-05-08 11:06:48,539 [DEBUG] JdbcPooledConnectionSource reusing connection #1727180513]]
+
+[2023-05-08T11:06:48.539+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683544008539] [levelValue: 800] [[
+  2023-05-08 11:06:48,539 [DEBUG] BaseMappedStatement query-for-id using 'SELECT * FROM `events` WHERE `id` = ?' and 1 args, got 1 result]]
+
+[2023-05-08T11:06:48.539+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683544008539] [levelValue: 800] [[
+  2023-05-08 11:06:48,539 [DEBUG] JdbcPooledConnectionSource cache released connection #1727180513]]
+
+[2023-05-08T11:06:49.244+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683544009244] [levelValue: 800] [[
+  2023-05-08 11:06:49,244 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T11:06:49.245+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683544009245] [levelValue: 800] [[
+  2023-05-08 11:06:49,245 [DEBUG] JdbcPooledConnectionSource reusing connection #1727180513]]
+
+[2023-05-08T11:06:49.245+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683544009245] [levelValue: 800] [[
+  2023-05-08 11:06:49,245 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T11:06:49.245+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683544009245] [levelValue: 800] [[
+  2023-05-08 11:06:49,245 [DEBUG] SelectIterator starting iterator @1326992471 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T11:06:49.245+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683544009245] [levelValue: 800] [[
+  2023-05-08 11:06:49,245 [DEBUG] SelectIterator closed iterator @1326992471 after 7 rows]]
+
+[2023-05-08T11:06:49.245+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683544009245] [levelValue: 800] [[
+  2023-05-08 11:06:49,245 [DEBUG] JdbcPooledConnectionSource cache released connection #1727180513]]
+
+[2023-05-08T11:06:49.245+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1683544009245] [levelValue: 800] [[
+  2023-05-08 11:06:49,245 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T11:06:58.487+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683544018487] [levelValue: 800] [[
+  2023-05-08 11:06:58,487 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T11:06:58.487+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683544018487] [levelValue: 800] [[
+  2023-05-08 11:06:58,487 [DEBUG] JdbcPooledConnectionSource reusing connection #1727180513]]
+
+[2023-05-08T11:06:58.487+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683544018487] [levelValue: 800] [[
+  2023-05-08 11:06:58,487 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T11:06:58.487+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683544018487] [levelValue: 800] [[
+  2023-05-08 11:06:58,487 [DEBUG] SelectIterator starting iterator @533778986 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T11:06:58.488+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683544018488] [levelValue: 800] [[
+  2023-05-08 11:06:58,488 [DEBUG] SelectIterator closed iterator @533778986 after 7 rows]]
+
+[2023-05-08T11:06:58.488+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683544018488] [levelValue: 800] [[
+  2023-05-08 11:06:58,488 [DEBUG] JdbcPooledConnectionSource cache released connection #1727180513]]
+
+[2023-05-08T11:06:58.488+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=36 _ThreadName=Thread-8] [timeMillis: 1683544018488] [levelValue: 800] [[
+  2023-05-08 11:06:58,488 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T11:07:06.124+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683544026124] [levelValue: 800] [[
+  2023-05-08 11:07:06,124 [DEBUG] StatementBuilder built statement SELECT * FROM `events` WHERE `date` = 1683504000000]]
+
+[2023-05-08T11:07:06.124+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683544026124] [levelValue: 800] [[
+  2023-05-08 11:07:06,124 [DEBUG] JdbcPooledConnectionSource reusing connection #1727180513]]
+
+[2023-05-08T11:07:06.124+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683544026124] [levelValue: 800] [[
+  2023-05-08 11:07:06,124 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` WHERE `date` = 1683504000000' with 0 args]]
+
+[2023-05-08T11:07:06.124+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683544026124] [levelValue: 800] [[
+  2023-05-08 11:07:06,124 [DEBUG] SelectIterator starting iterator @858576414 for 'SELECT * FROM `events` WHERE `date` = 1683504000000']]
+
+[2023-05-08T11:07:06.125+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683544026125] [levelValue: 800] [[
+  2023-05-08 11:07:06,125 [DEBUG] SelectIterator closed iterator @858576414 after 2 rows]]
+
+[2023-05-08T11:07:06.125+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683544026125] [levelValue: 800] [[
+  2023-05-08 11:07:06,125 [DEBUG] JdbcPooledConnectionSource cache released connection #1727180513]]
+
+[2023-05-08T11:07:06.125+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683544026125] [levelValue: 800] [[
+  2023-05-08 11:07:06,125 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` WHERE `date` = 1683504000000' with 0 args returned 2 results]]
+
+[2023-05-08T11:07:06.846+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683544026846] [levelValue: 800] [[
+  2023-05-08 11:07:06,846 [DEBUG] StatementBuilder built statement SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC]]
+
+[2023-05-08T11:07:06.846+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683544026846] [levelValue: 800] [[
+  2023-05-08 11:07:06,846 [DEBUG] JdbcPooledConnectionSource reusing connection #1727180513]]
+
+[2023-05-08T11:07:06.847+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683544026847] [levelValue: 800] [[
+  2023-05-08 11:07:06,847 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T11:07:06.847+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683544026847] [levelValue: 800] [[
+  2023-05-08 11:07:06,847 [DEBUG] SelectIterator starting iterator @953469502 for 'SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC']]
+
+[2023-05-08T11:07:06.847+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683544026847] [levelValue: 800] [[
+  2023-05-08 11:07:06,847 [DEBUG] SelectIterator closed iterator @953469502 after 2 rows]]
+
+[2023-05-08T11:07:06.847+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683544026847] [levelValue: 800] [[
+  2023-05-08 11:07:06,847 [DEBUG] JdbcPooledConnectionSource cache released connection #1727180513]]
+
+[2023-05-08T11:07:06.847+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683544026847] [levelValue: 800] [[
+  2023-05-08 11:07:06,847 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` WHERE `date` BETWEEN 1683504000000 AND 1684022400000 ORDER BY `date` DESC' with 0 args returned 2 results]]
+
+[2023-05-08T11:07:08.085+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683544028085] [levelValue: 800] [[
+  2023-05-08 11:07:08,085 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T11:07:08.085+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683544028085] [levelValue: 800] [[
+  2023-05-08 11:07:08,085 [DEBUG] JdbcPooledConnectionSource reusing connection #1727180513]]
+
+[2023-05-08T11:07:08.085+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683544028085] [levelValue: 800] [[
+  2023-05-08 11:07:08,085 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T11:07:08.086+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683544028086] [levelValue: 800] [[
+  2023-05-08 11:07:08,086 [DEBUG] SelectIterator starting iterator @566567160 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T11:07:08.086+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683544028086] [levelValue: 800] [[
+  2023-05-08 11:07:08,086 [DEBUG] SelectIterator closed iterator @566567160 after 7 rows]]
+
+[2023-05-08T11:07:08.086+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683544028086] [levelValue: 800] [[
+  2023-05-08 11:07:08,086 [DEBUG] JdbcPooledConnectionSource cache released connection #1727180513]]
+
+[2023-05-08T11:07:08.086+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=37 _ThreadName=Thread-8] [timeMillis: 1683544028086] [levelValue: 800] [[
+  2023-05-08 11:07:08,086 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T11:25:42.050+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=924 _ThreadName=Thread-8] [timeMillis: 1683545142050] [levelValue: 800] [[
+  2023-05-08 11:25:42,049 [DEBUG] JdbcPooledConnectionSource closed connection #1727180513]]
+
+[2023-05-08T11:45:28.551+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683546328551] [levelValue: 800] [[
+  2023-05-08 11:45:28,551 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC]]
+
+[2023-05-08T11:45:28.552+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683546328552] [levelValue: 800] [[
+  2023-05-08 11:45:28,552 [DEBUG] StatementBuilder built statement SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10]]
+
+[2023-05-08T11:45:28.554+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683546328554] [levelValue: 800] [[
+  2023-05-08 11:45:28,554 [DEBUG] JdbcPooledConnectionSource opened connection to jdbc:sqlite:/home/coder/workspace/database.db got #975180515]]
+
+[2023-05-08T11:45:28.555+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683546328555] [levelValue: 800] [[
+  2023-05-08 11:45:28,555 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args]]
+
+[2023-05-08T11:45:28.555+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683546328555] [levelValue: 800] [[
+  2023-05-08 11:45:28,555 [DEBUG] JdbcPooledConnectionSource opened connection to jdbc:sqlite:/home/coder/workspace/database.db got #1702137945]]
+
+[2023-05-08T11:45:28.555+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683546328555] [levelValue: 800] [[
+  2023-05-08 11:45:28,555 [DEBUG] SelectIterator starting iterator @1326436156 for 'SELECT * FROM `events` ORDER BY `date` DESC']]
+
+[2023-05-08T11:45:28.555+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683546328555] [levelValue: 800] [[
+  2023-05-08 11:45:28,555 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10' with 0 args]]
+
+[2023-05-08T11:45:28.556+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683546328556] [levelValue: 800] [[
+  2023-05-08 11:45:28,556 [DEBUG] SelectIterator starting iterator @1802599035 for 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10']]
+
+[2023-05-08T11:45:28.556+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683546328556] [levelValue: 800] [[
+  2023-05-08 11:45:28,556 [DEBUG] SelectIterator closed iterator @1802599035 after 7 rows]]
+
+[2023-05-08T11:45:28.556+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683546328556] [levelValue: 800] [[
+  2023-05-08 11:45:28,556 [DEBUG] JdbcPooledConnectionSource cache released connection #2111668170]]
+
+[2023-05-08T11:45:28.556+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1683546328556] [levelValue: 800] [[
+  2023-05-08 11:45:28,556 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC LIMIT 0,10' with 0 args returned 7 results]]
+
+[2023-05-08T11:45:28.556+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683546328556] [levelValue: 800] [[
+  2023-05-08 11:45:28,556 [DEBUG] SelectIterator closed iterator @1326436156 after 7 rows]]
+
+[2023-05-08T11:45:28.556+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683546328556] [levelValue: 800] [[
+  2023-05-08 11:45:28,556 [DEBUG] JdbcPooledConnectionSource cache released connection #2032618402]]
+
+[2023-05-08T11:45:28.556+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1683546328556] [levelValue: 800] [[
+  2023-05-08 11:45:28,556 [DEBUG] StatementExecutor query of 'SELECT * FROM `events` ORDER BY `date` DESC' with 0 args returned 7 results]]
+
+[2023-05-08T12:45:42.166+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=924 _ThreadName=Thread-8] [timeMillis: 1683549942166] [levelValue: 800] [[
+  2023-05-08 12:45:42,163 [DEBUG] JdbcPooledConnectionSource closed connection #2111668170]]
+
+[2023-05-08T12:45:42.167+0000] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=924 _ThreadName=Thread-8] [timeMillis: 1683549942167] [levelValue: 800] [[
+  2023-05-08 12:45:42,167 [DEBUG] JdbcPooledConnectionSource closed connection #2032618402]]
+
